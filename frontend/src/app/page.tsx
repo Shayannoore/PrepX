@@ -7,6 +7,7 @@ import { Send, User, Bot, BarChart3, TrendingUp, Sparkles, RefreshCcw } from "lu
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
